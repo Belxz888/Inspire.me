@@ -1,0 +1,43 @@
+body
+{
+    user-select: none;
+}
+.menu
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: rgba(174, 252, 202, 0.801);
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    box-shadow:  0px 2px 0px 0px rgba(124, 124, 124, 0.748);
+}
+.menu li
+{
+    display: inline;
+    position: relative;
+    
+    top: 35px;
+    left: 40px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: black;   
+    font-size: 30px ;
+    margin-left: 170px;
+}
+button
+{
+    color: white;
+    background-color: #037853da;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: -110px;
+    margin-right: 160px;
+    border: none;
+    height: 20px;
+    width: max-content;
+    box-shadow:  1px 1px rgb(143, 142, 142);
+}

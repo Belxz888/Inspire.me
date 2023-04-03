@@ -1,0 +1,594 @@
+body
+{
+    user-select: none;
+}
+.menu
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: rgba(174, 252, 202, 0.801);
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    box-shadow:  0px 2px 0px 0px rgba(124, 124, 124, 0.748);
+}
+.menu li
+{
+    display: inline;
+    position: relative;
+    
+    top: 35px;
+    left: 40px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: black;   
+    font-size: 30px ;
+    margin-left: 170px;
+}
+button
+{
+    color: white;
+    background-color: #037853da;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: -110px;
+    margin-right: 160px;
+    border: none;
+    height: 20px;
+    width: max-content;
+    box-shadow:  1px 1px rgb(143, 142, 142);
+}
+h1
+{
+    text-align: center;
+}
+section
+{
+    background-color: white;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.459);
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    border-radius: 25px;
+    margin-left: 32.5%;
+    margin-top: 200px;
+    z-index: -1;
+}
+input
+{
+    border-radius: 25px;
+    letter-spacing: 0.2em;
+    border: 1px solid;
+    width: 300px;
+    background: linear-gradient(45deg, rgb(255, 255, 255),  rgb(192, 255, 222));
+    height: 25px;
+}
+.vkon
+{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -5px;
+    height: 30px;
+    width: 30px;
+}
+.faceb
+{
+    position: absolute;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: -5px;
+    height: 30px;
+    width: 30px;
+}
+.google
+{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -5px;
+    height: 30px;
+    width: 30px;
+}
+.email
+{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 300px;
+}
+.name
+{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 330px;
+}
+.password
+{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 360px;
+}
+.repeatpassword
+{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 390px;
+}
+.gmail
+{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    color: black;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 25px;
+    margin-left: 35.25%;
+    margin-top: 425px;
+    background: linear-gradient(45deg, green , red , blue , yellow );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+    
+}
+.gmail a
+{
+    font-size: 18px;
+}
+.facebook
+{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    color: black;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 25px;
+    margin-left: 35.25%;
+    margin-top: 480px;
+    background: linear-gradient(45deg, green , red , blue , yellow );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+}
+.facebook a
+{
+    font-size: 18px;
+}
+.vk
+{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    color: black;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 25px;
+    margin-left: 35.25%;
+    margin-top: 535px;
+    background: linear-gradient(45deg, green , red , blue , yellow );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+    
+}
+.vk a
+{
+    font-size: 18px;
+}
+.buttonsignup
+{
+    margin-top: 590px;
+    margin-left: 42%;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    color: black;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, green , red , blue , yellow );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+}
+.img2
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(75deg);
+    margin-top: 458px;
+    margin-left: 20px;
+    user-select: none;
+}
+.img1
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(82deg);
+    margin-top: 245px;
+    margin-left: 290px;
+    user-select: none;
+}
+.img4
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 354px;
+    margin-left: 190px;
+    user-select: none;
+}
+.img3
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(146deg);
+    margin-top: 680px;
+    margin-left: 470px;
+    user-select: none;
+}
+.img6
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(23deg);
+    margin-top: 115px;
+    margin-left: 659px;
+    user-select: none;
+}
+.img5
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(90deg);
+    margin-top: 189px;
+    margin-left: 225px;
+    user-select: none;
+}
+.img8
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(158deg);
+    margin-top: 609px;
+    margin-left: 125px;
+    user-select: none;
+}
+.img7
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 498px;
+    margin-left: 1098px;
+    user-select: none;
+}
+.img10
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 389px;
+    margin-left: 1000px;
+    user-select: none;
+}
+.img9
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(110deg);
+    margin-top: 100px;
+    margin-left: 845px;
+    user-select: none;
+}
+.img12
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(20deg);
+    margin-top: 291px;
+    margin-left: 1099px;
+    user-select: none;
+}
+.img11
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(30deg);
+    margin-top: 111px;
+    margin-left: 111px;
+    user-select: none;
+}
+.img14
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(59deg);
+    margin-top: 222px;
+    margin-left: 1290px;
+    user-select: none;
+}
+.img13
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(81deg);
+    margin-top: 100px;
+    margin-left: 1380px;
+    user-select: none;
+}
+.img16
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 397px;
+    margin-left: 1268px;
+    user-select: none;
+}
+.img15
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(40deg);
+    margin-top: 400px;
+    margin-left: 350px;
+    user-select: none;
+}
+.img18
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(56deg);
+    margin-top: 268px;
+    margin-left: 1400px;
+    user-select: none;
+}
+.img17
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(0deg);
+    margin-top: 168px;
+    margin-left: 1129px;
+    user-select: none;
+}
+.img20
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(70deg);
+    margin-top: 700px;
+    margin-left: 1450px;
+    user-select: none;
+}
+.img19
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 689px;
+    margin-left: 1245px;
+    user-select: none;
+}
+.img22
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(30deg);
+    margin-top: 600px;
+    margin-left: 1356px;
+    user-select: none;
+}
+.img23
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 699px;
+    margin-left: 799px;
+    user-select: none;
+}
+.img25
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(98deg);
+    margin-top: 560px;
+    margin-left: 370px;
+    user-select: none;
+}
+.img21
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(105deg);
+    margin-top: 601px;
+    margin-left: 1000px;
+    user-select: none;
+}
+.img24
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 658px;
+    margin-left: 250px;
+    user-select: none;
+}
+.img20
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(69deg);
+    margin-top: 100px;
+    margin-left: 470px;
+    user-select: none;
+}
+.img26
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(78deg);
+    margin-top: 100px;
+    margin-left: 1256px;
+    user-select: none;
+}
+.img28
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 500px;
+    margin-left: 160px;
+    user-select: none;
+}
+.img27
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(45deg);
+    margin-top: 300px;
+    margin-left: 10px;
+    user-select: none;
+}
+.img30
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(165deg);
+    margin-top: 140px;
+    margin-left: 999px;
+    user-select: none;
+}
+.img29
+{
+    background-image: initial;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    background-repeat: repeat;
+    transform: rotate(135deg);
+    margin-top: 100px;
+    margin-left: 1250px;
+    user-select: none;
+}

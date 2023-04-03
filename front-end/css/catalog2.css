@@ -1,0 +1,403 @@
+body
+{
+    user-select:none;
+}
+.menu
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: rgba(174, 252, 202, 0.801);
+    height: 120px;
+    width: 100%;
+    box-shadow:  0px 2px 0px 0px rgba(124, 124, 124, 0.748);
+}
+.menu li
+{
+    display: inline;
+    position: relative;
+    
+    top: 35px;
+    left: 40px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: black;   
+    font-size: 30px ;
+    margin-left: 170px;
+}
+button
+{
+    color: white;
+    background-color: #037853da;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: -110px;
+    margin-right: 160px;
+    border: none;
+    height: 20px;
+    width: max-content;
+    box-shadow:  1px 1px rgb(143, 142, 142);
+}
+.fon
+{
+    background-color: rgb(66, 251, 189);
+    border-radius: 20px;
+    height: 690px;
+    width: 490px;
+    margin-top: 80px;
+    margin-left: 220px;
+    box-shadow:  4px 5px 0px 0px rgba(58, 57, 57, 0.748);
+}
+.fon1
+{
+    background-color: rgb(66, 251, 189);
+    border-radius: 20px;
+    height: 420px;
+    width: 490px;
+    margin-top: 80px;
+    margin-left: 220px;
+    box-shadow:  4px 5px 0px 0px rgba(58, 57, 57, 0.748);
+}
+.foninfo
+{
+    background-color: rgb(248, 246, 242);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: rgb(66, 251, 189) solid 3px;
+}
+.liststar
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 4px 5px 0px 0px rgba(255, 233, 63, 0.748);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -660px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listour
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -570px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listgood
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -480px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listbad
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -390px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listse-im
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -300px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listac-of-go
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -210px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listskill-dev
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -120px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listgood1
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -390px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listgood1::after
+{
+    zoom: 10px;
+}
+.listgood2
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -300px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listgood3
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -210px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.listgood4
+{
+    background-color: rgba(255, 255, 255, 0.806);
+    box-shadow: inset 2px 3px 0px 0px rgb(143, 142, 142);
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 32px;
+    width: 456px;
+    height: 70px;
+    float: left;
+    margin-left: 235px;
+    margin-top: -120px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+#firstblock
+{
+    margin-top: 10%;
+}
+#wertyinfo
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 90%;
+    display: none;
+}
+#wertygood{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 90%;
+    display: none;
+}
+#wertybad
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 90%;
+    display: none;
+}
+#wertystar
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 90%;
+    display: none;
+}
+#wertyour
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 90%;
+    display: none;
+}
+#wertyse_im
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 90%;
+    display: none;
+}
+#wertyac_of_go
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 90%;
+    display: none;
+}
+#wertyskill_dev
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 90%;
+    display: none;
+}
+@keyframes  geroin {
+    0%{
+        margin-left: 90%;
+        display: inline;
+
+    }
+    15%{
+        margin-left: 82%;
+        display: inline; 
+    }
+    30%{
+        margin-left: 72%;
+        display: inline;
+    }
+    45%{
+        margin-left: 62%;
+        display: inline;
+    }
+    60%{
+        margin-left: 52%;
+        display: inline;
+    }
+    75%{
+        margin-left: 43%;
+        display: inline;
+    }
+    90%{
+        margin-left: 42%;
+        display: inline;
+    }
+    100%{
+        margin-left: 40%;
+        display: inline;
+    }
+}
+#button
+{
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(66, 251, 189);
+    width: 60px;
+    height: 60px;
+    margin-right: -1px;
+}
+#button:hover 
+{
+    background-color: #666666;
+    box-shadow: 2px 4px #999999;
+}
+@keyframes  info {
+    0%{
+        margin-left: 40%;
+        display: inline;
+        z-index: 0;
+    }
+    15%{
+        margin-left: 45%;
+        display: inline; 
+        z-index: 1;
+    }
+    30%{
+        margin-left: 55%;
+        display: inline;
+        z-index: 1;
+    }
+    45%{
+        margin-left: 62%;
+        display: inline;
+        z-index: 1;
+    }
+    60%{
+        margin-left: 72%;
+        display: inline;
+        z-index: 1;
+    }
+    75%{
+        margin-left: 82%;
+        display: inline;
+        z-index: 1;
+    }
+    
+    100%{
+        margin-left: 90%;
+        display: inline;
+        z-index: 1;
+    }
+}

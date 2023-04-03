@@ -1,0 +1,154 @@
+.menu
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: #00c1c8dc;
+    height: 120px;
+    width: 1520px;
+    box-shadow:  0px 2px 0px 0px rgba(124, 124, 124, 0.748);
+}
+.menu li
+{
+    display: inline;
+    position: relative;
+    
+    top: 35px;
+    left: 40px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: black;   
+    font-size: 30px ;
+    margin-left: 170px;
+}
+button
+{
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    width: max-content;
+    
+}
+.signin2
+{
+    margin-top: -95px;
+    margin-left: 70%;
+    position: absolute;
+    float: right;
+    background-color: #00c1c8dc;
+    z-index: 1;
+}
+.signin2 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.signup2
+{
+    margin-top: -95px;
+    margin-left: 75%;
+    position: absolute;
+    float: right;
+    background-color: #007b7f97;
+    z-index: 1;
+}
+.signup2 a
+{
+    text-decoration: none;
+    color: black;
+}
+.fon
+{
+    background-color: #007b7fdc;
+    height: 620px;
+    width: 1570px;
+    margin-top: -15px;
+    margin-left: -20px;
+    z-index: -1;
+}
+.succes
+{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 30%;
+    text-align: center;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.succes strong
+{
+    font-size: 40px;
+}
+.headtree
+{
+    background-color: azure;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 290px;
+    border: 2px solid black;
+    border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+    border-image-slice: 1;
+    
+}
+.headtree img{
+    height: 200px;
+    width: 300px;
+}
+.headtree p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.hand
+{
+    background-color: azure;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 600px;
+    border: 2px solid black;
+    border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+    border-image-slice: 1;
+    
+}
+.hand img
+{
+    height: 200px;
+    width: 300px;
+}
+.hand p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.progress
+{
+    background-color: azure;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 910px;
+    border: 2px solid black;
+    border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+    border-image-slice: 1;
+    
+}
+.progress img{
+    height: 200px;
+    width: 300px;
+}
+.progress p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
