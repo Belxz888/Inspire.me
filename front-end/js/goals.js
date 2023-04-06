@@ -47,19 +47,15 @@ let count = 0;
     const checkinp = document.querySelectorAll(".check");
     const complmes = document.querySelectorAll(".comp");
     const taskplank = document.querySelector(".task");
-    for(let i=0; i<checkinp.length; i++)
-    {checkinp[i].onclick=function dode (){
-           if (checkinp[i].checked){
-   complmes[i].innerHTML = 'completed';
-   console.log("ssl")
+    for(let index=0; index<checkinp.length; index++)
+    {checkinp[index].onclick=function dode (){
+           if (checkinp[index].checked){
+   complmes[index].innerHTML = 'completed';
            }
            else{
-   complmes[i].innerText = 'not completed';}
-         
-
+   complmes[index].innerText = 'not completed';}
            }
          }
-}
 /*
 const taskplank = document.querySelectorAll(".task")
 const complmes = document.getElementById("comp");
