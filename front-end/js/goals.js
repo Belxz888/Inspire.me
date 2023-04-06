@@ -1,13 +1,25 @@
 let count = 0;
+//let noteNumber=1
  function made(){
     if(document.querySelector('#super').value.length == 0){//
       alert("Please Enter a Task")
     }
     else{
       //ОТРИСОВКА ТАСКА
-    count+=1;
-    document.createElement('div');
-    NodeIterator.innerHTML = 'note ${count}'
+      /*function createNote(){
+    count++;
+    const note=document.createElement('div');
+    note.innerHTML = 'note ${count}';
+    document.body.appendChild (note);
+    }*/
+    /*function addNote(){
+        const noteText = document.getElementById("note-text").value;
+        const notesList = document.getElementById("notes-list");
+        const noteItem = document.createElement("li");
+        noteItem.innerText='${noteNumber}. ${noteText}';
+        notesList.appendChild(noteItem);
+        noteNumber++;*/
+    }
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
             <p> ${count} </p>
