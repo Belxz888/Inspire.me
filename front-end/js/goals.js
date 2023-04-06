@@ -6,6 +6,8 @@ let count = 0;
     else{
       //ОТРИСОВКА ТАСКА
     count+=1;
+    document.createElement('div');
+    NodeIterator.innerHTML = 'note ${count}'
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
             <p> ${count} </p>
