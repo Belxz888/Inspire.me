@@ -19,43 +19,41 @@ let count = 0;
         noteItem.innerText='${noteNumber}. ${noteText}';
         notesList.appendChild(noteItem);
         noteNumber++;*/
-    }
         document.querySelector('#tasks').innerHTML += `
-            <div class="task">
-            <p> ${count} </p>
-                <span id="taskname">
-                    ${document.querySelector('#super').value}
-                </span>
-                <button class="delete">
-            Delete
-                </button>
-                <input type="checkbox"  class="check">
-                <p class='comp'>...</p>
-            </div>
-        `;
-        document.querySelector('#super').value = ''
-  //DELETE BUTTON CODE
-        let current_tasks = document.querySelectorAll(".delete");
-        for(var index=0; index<current_tasks.length; index++){
-            current_tasks[index].onclick = function(){
-                this.parentNode.remove();
+        <div class="task">
+        <p> ${count++} </p>
+            <span id="taskname">
+                ${document.querySelector('#super').value}
+            </span>
+            <button class="delete">
+        Delete
+            </button>
+            <input type="checkbox"  id="check">
+            <p class='comp'>...</p>
+        </div>
+    `;
+    document.querySelector('#super').value = ''
+//DELETE BUTTON CODE
+    let current_tasks = document.querySelectorAll(".delete");
+    for(var index=0; index<current_tasks.length; index++){
+        current_tasks[index].onclick = function(){
+            this.parentNode.remove();
             count--
-            }
         }
-    }
-    //COMPLETED/NOT COMPLETED
-    const checkinp = document.querySelectorAll(".check");
-    const complmes = document.querySelectorAll(".comp");
+    }}
+    const checkinp = document.getElementById("check");
+    const complmes = document.querySelector(".comp");
     const taskplank = document.querySelector(".task");
-    for(let index=0; index<checkinp.length; index++)
-    {checkinp[index].onclick=function dode (){
-           if (checkinp[index].checked){
-   complmes[index].innerHTML = 'completed';
+    checkinp.onclick= () =>{ 
+           if (checkinp.checked){
+   complmes.innerHTML = 'completed';
            }
            else{
-   complmes[index].innerText = 'not completed';}
+   complmes.innerText = 'not completed';}
            }
-         }
+    }
+//область видимости функции ограничивает взаимодействие с домом
+    //COMPLETED/NOT COMPLETED
 /*
 const taskplank = document.querySelectorAll(".task")
 const complmes = document.getElementById("comp");
