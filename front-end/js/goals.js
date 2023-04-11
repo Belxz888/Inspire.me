@@ -29,7 +29,7 @@ let count = 0;
         Delete
             </button>
             <input type="checkbox"  id="check">
-            <p class='comp'>...</p>
+            <p class='comp'></p>
         </div>
     `;
     document.querySelector('#super').value = ''
