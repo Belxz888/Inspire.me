@@ -1,6 +1,9 @@
 .task{
     color: black;
     border-bottom: 10px solid aliceblue;
+    height: 50px;
+    
+    
         }
         @keyframes disapear {
             0%{
@@ -41,10 +44,10 @@
         }
         #tasks{
             background-color: #3e8b9c;
-            border-radius: 10px;
+            
             width: 350px;
             margin-left: 6%;
-            
+            margin-top: 10px;
         }
         #super{
             border: solid #72C4D7;   
@@ -74,7 +77,8 @@
             height: 400px;
             margin-left: 33%;
             border-radius: 5%;      
-            margin-top: 100px;      
+            margin-top: 100px;    
+            overflow: scroll;  
         }
         #sub{
             background-color: white;
@@ -100,3 +104,6 @@
             
             color: black;
         }
+        p{
+            display: inline;
+            margin-left: 10%;        }
