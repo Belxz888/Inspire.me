@@ -1,6 +1,6 @@
-
- .task{
-    opacity: 1;
+.task{
+    color: black;
+    border-bottom: 10px solid aliceblue;
         }
         @keyframes disapear {
             0%{
@@ -38,4 +38,65 @@
                 position: absolute;
                 display: none;
             }
+        }
+        #tasks{
+            background-color: #3e8b9c;
+            border-radius: 10px;
+            width: 350px;
+            margin-left: 6%;
+            
+        }
+        #super{
+            border: solid #72C4D7;   
+            margin-left: 24%;  
+            margin-top: 5%; 
+            border-radius: 10px;
+        }
+        .option-on{
+            color: black;
+            font-size: 30px;
+            text-decoration: none;
+            margin-left: 10%;
+            
+        }
+        header{
+            background-color: #72C4D7;
+            width: 100%;
+            height: 140px;
+        }
+        body{
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+        }
+        #main-stats{
+            border: solid #72C4D7;
+            width: 400px;
+            height: 400px;
+            margin-left: 33%;
+            border-radius: 5%;      
+            margin-top: 100px;      
+        }
+        #sub{
+            background-color: white;
+            border: solid #72C4D7;
+            border-radius: 10px;
+        }
+        .sign-in{
+            text-decoration: none;
+            margin-left: 5%;
+            font-size: 20px;
+            color: black;
+        }
+        #menu{
+            align-items: center;
+            display: inline;
+        }
+        .sign-up{
+            text-decoration: none;
+            border-radius: 7px;
+            background-color: #3A869D;
+            margin-left: 2%;
+            font-size: 20px;
+            
+            color: black;
         }

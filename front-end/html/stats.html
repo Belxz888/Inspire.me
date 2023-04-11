@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/front-end/css/stats.css"/>
     <title>Statistics</title>
 </head>
 <body>
-
-    <input id="super">
-    <button id="sub" onclick="made()">add</button>
-    <p id="new"></p>
-    <div id="tasks"></div>
-  <script src="/front-end/js/goals.js"></script>
+  <header>
+    <div id="menu">
+      <a href="main.html" class="option-on">Catalog</a>
+      <a href="stats.html" class="option-on">My goals</a>
+      <a href="setts.html" class="option-on">Settings</a>
+    </div>
+    <a href="sign_in2.html" class="sign-in">Sign-ip</a>
+    <a href="sing_up2.html" class="sign-up">Sign-up</a>
+  </header>
+  <main>
+    <div id="main-stats">
+        <input id="super">
+        <button id="sub" onclick="made()">add</button>
+        <p id="new"></p>
+        <div id="tasks"></div>
+        <script src="/front-end/js/goals.js"></script>
+    </div>
+</main>
 </body>
 </html>
