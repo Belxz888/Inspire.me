@@ -41,19 +41,23 @@ let count = 0;
             count--
         }
     }}
-    const checkinp = document.getElementById("check");
-    const complmes = document.querySelector(".comp");
-    const taskplank = document.querySelector(".task");
-    checkinp.onclick= () =>{ 
-           if (checkinp.checked){
-   complmes.innerHTML = 'completed';
+    //COMPLETED/NOT COMPLETED
+    const checkinp = document.querySelectorAll("#check");
+    const complmes = document.querySelectorAll(".comp");
+    const taskplank = document.querySelectorAll(".task");
+    for (let index =0;index<checkinp.length ; index++){
+    checkinp[index].onclick= () =>{ 
+           if (checkinp[index].checked){
+   complmes[index].innerHTML = 'completed';
            }
            else{
-   complmes.innerText = 'not completed';}
+   complmes[index].innerText = 'not completed';}
            }
     }
+}
 //область видимости функции ограничивает взаимодействие с домом
-    //COMPLETED/NOT COMPLETED
+    
+
 /*
 const taskplank = document.querySelectorAll(".task")
 const complmes = document.getElementById("comp");
