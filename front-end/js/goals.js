@@ -49,12 +49,22 @@ let count = 0;
     checkinp[index].onclick= () =>{ 
            if (checkinp[index].checked){
    complmes[index].innerHTML = 'completed';
+   timerID = setTimeout(function() {
+    var element = taskplank[index];
+    element.parentNode.removeChild(element);
+    }, 2000);
            }
-           else{
-   complmes[index].innerText = 'not completed';}
+           else if (!checkinp[index].checked){
+            complmes[index].innerHTML = ' not completed';
+            console.log("dc");
+            clearTimeout(timerID);
+
            }
+                
+        
     }
-}
+
+}}
 //область видимости функции ограничивает взаимодействие с домом
     
 
