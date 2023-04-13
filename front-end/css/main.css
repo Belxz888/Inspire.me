@@ -1,46 +1,47 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
 #main-page{
     width: 100%;
     height: 900px;
-    background-color: chartreuse;
+    background-color: #3A869D;
     background-attachment: fixed;
-    margin-top: -2%;
+    margin-top: 0;
 }
 header{
-    background-color:aqua;
-    height: 100px;
+    background-color:#72C4D7;
+    height: 120px;
+    width: 100%;
     object-fit: cover;
 }
 #menu{
-    display: inline;
+    display: flex;
     padding-left: 10px;
+    align-items: center;
 }
 .li{
     display: inline;
 }
 .option-on{
-    margin-left: 10%;
-    color: blue;
-    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
     text-decoration: none;
+    margin-left: 5%;
 }
 .sign-in{
-    color: saddlebrown;
-    margin-left: 10%;
-    background-color: darkgray;
-    border-radius: 10%;
-    width: 70px;
-    height: 8px;
-    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
     text-decoration: none;
+    margin-left: 20%;
 }
 .sign-up{
-    color: saddlebrown;
-    margin-left: 10%;
-    background-color: darkgray;
-    border-radius: 10%;
-    width: 70px;
-    height: 8px;
-    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    background-color: #3A869D;
+    padding: 8px 12px;
+    border-radius: 7px;
+    font-size: 24px;
     text-decoration: none;
 }
 .headtree
@@ -95,16 +96,25 @@ header{
     height: 200px;
     width: 300px;
 }
-.succes
-{
-
-
-   margin-left: 35%;
+.succes{
+    margin-left: 35%;
     color:black;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 40px
+    font-size: 40px;
+    margin-top: 0px;
 }
 .succes strong
 {
     font-size: 40px;}
-   
+.header-img{
+    margin-top: 10px;
+}
+#raz{
+    font-size: 64px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+#zal{
+    font-size: 24px;
+    margin-top: 0px;
+    font-weight: 400;
+}
