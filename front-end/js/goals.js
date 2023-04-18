@@ -1,8 +1,15 @@
 let count = 0;
 //let noteNumber=1
- function made(){
-    if(document.querySelector('#super').value.length == 0){//
-      alert("Please Enter a Task")
+const mainbutton = document.getElementById("sub")
+document.querySelector('#super').addEventListener("keydown",(event)=>{
+
+    if (event.keyCode  === 13) {
+     made()
+    }
+});
+  function made(){
+    if(document.querySelector('#super').value.length <= 3){//
+      alert("Побольше")
     }
     else{
       //ОТРИСОВКА ТАСКА
@@ -65,6 +72,7 @@ let count = 0;
     }
 
 }}
+
 //область видимости функции ограничивает взаимодействие с домом
     
 
