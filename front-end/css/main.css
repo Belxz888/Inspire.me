@@ -94,3 +94,23 @@ article{
 #holder{
     display: flex;
 }
+.wrapper{
+    position: relative;
+    overflow-x: hidden;
+}
+.menu-wr{
+    position: fixed;
+    margin-left: 50%;
+    margin-top: 0;
+    width: 30%;
+    height: 100%;
+    color: black;
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    
+}
