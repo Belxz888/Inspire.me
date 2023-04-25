@@ -1,6 +1,4 @@
 
-
-
 const body = document.body;
 const signUpBtn = document.getElementById('signup-btn');
 signUpBtn.addEventListener('click', function () {
