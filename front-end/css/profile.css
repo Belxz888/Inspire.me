@@ -1,0 +1,17 @@
+.profile{
+    background-color: white;
+    color:#72C4D7;
+    padding:20px;
+    border-radius: 10px;
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.profile h1{
+    font-size: 24px;
+}
+.profile p{
+    font-size: 18px;
+}
