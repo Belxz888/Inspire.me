@@ -4,41 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css"/>
-    <title>Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
 </head>
 <body>
-<header>
-        <div id="menu"> 
-            <a href="main.html" class="option-on">Catalog</a> 
-            <a href="stats.html"class="option-on">Мои цели</a>
-            <a href="setts.html"class="option-on">Settings</a>    
-        </div>   
-        <a href="sign_in2.html"  class="sign-in">Sign In</a>
-        <a href="sing_up2.html" class="sign-up">Sign Up</a>
+    <header>
+        <div id="menu">
+            <a href="main.html" class="header-image"><img src="../imgs/logo.png"></a>
+            <a href="stats.html" class="option-on">Мои цели</a>
+            <a href="statistic.html" class="option-on">Статистика</a>
+            <a href="setting.html" class="option-on">Настройки</a>
+            
+            <a href="login.html" class="login">Вход</a>
+            <a href="logup.html" class="logup">Регестрация</a>
+        </div>
     </header>
-        <article id="main-page">
-        <h1 class="succes">
-           Развитие себя - залог Успеха
-        </h1>
-        <nav class="headtree">
-            <img src="/front-end/imgs/card1.jpg"/>
-            <p>
-                Here you can become better than before
-            </p>
-        </nav>
-        <nav class="hand">
-            <img src="/front-end/imgs/card3.jpg"/>
-            <p>
-                Here you can become better than before
-            </p>
-        </nav>
-        <nav class="progress">
-            <img src="/front-end/imgs/card2.jpg"/>
-            <p>
-                Here you can become better than before
-            </p>
-        </nav>
+    <article>
+        <p class="tittle">
+            Развитие -
+        </p>
+        <p class="disc">
+            залог успеха
+        </p>
+        <a href="stats.html" class="goals">
+            Ваши цели
+        </a>
     </article>
+    <div class="container">
+        <div id="holder">
+            <nav class="cards">
+                <div class="card">
+                <img src="../imgs/card3.jpg">
+                </div>
+                <div class="cards-dis">
+                    Тут ты сможешь стать другим человеком
+                </div>
+            </nav>
+            <nav class="cards">
+                <div class="card">
+                    <img src="../imgs/card2.jpg">
+                </div>
+                <div class="cards-dis">
+                    Тут ты сможешь стать другим человеком
+                </div>
+            </nav>
+            <nav class="cards">
+                <div class="card">
+                    <img src="../imgs/card1.jpg">
+                </div>
+                <div class="cards-dis">
+                    Тут ты сможешь стать другим человеком
+                </div>
+            </nav>
+        </div>
+    </div>
 </body>
 </html>
