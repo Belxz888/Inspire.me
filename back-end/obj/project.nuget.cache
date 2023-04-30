@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f5br62GXx8STLfs5PCVAitohmOMlHChS3WmHb8v/4HRaRsLVJqQo7DqIEkWBCAiVQ//JNm7izHlnSS4Jw+b+fQ==",
+  "dgSpecHash": "F+QAa+tznVAGOrtJwa9Xod1OT2RhvR6UxoZDhHf/cvFbsMbRSe2S110eZkseWSWwr7m0s4DvOSpaVMXwtSJVZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\r.a.belykh\\Documents\\GitHub\\Inspire.me\\back-end\\back-end.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\r.a.belykh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

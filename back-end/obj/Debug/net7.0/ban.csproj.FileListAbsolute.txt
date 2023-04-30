@@ -24,3 +24,14 @@ C:\Program Files\dotnet\ban\obj\Debug\net7.0\refint\ban.dll
 C:\Program Files\dotnet\ban\obj\Debug\net7.0\ban.pdb
 C:\Program Files\dotnet\ban\obj\Debug\net7.0\ban.genruntimeconfig.cache
 C:\Program Files\dotnet\ban\obj\Debug\net7.0\ref\ban.dll
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.AssemblyInfo.cs
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.dll
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\refint\ban.dll
+C:\Users\User\Desktop\group proj\Inspire.me\back-end\obj\Debug\net7.0\ban.pdb

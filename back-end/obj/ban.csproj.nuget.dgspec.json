@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files\\dotnet\\ban\\ban.csproj": {}
+    "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj": {}
   },
   "projects": {
-    "C:\\Program Files\\dotnet\\ban\\ban.csproj": {
+    "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files\\dotnet\\ban\\ban.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj",
         "projectName": "ban",
-        "projectPath": "C:\\Program Files\\dotnet\\ban\\ban.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files\\dotnet\\ban\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
