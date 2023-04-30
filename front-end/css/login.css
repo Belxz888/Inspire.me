@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #7daab6;
+}
+header{
+    background-color: #72C4D7;
+    width: 100%;
+    height: 140px;
+}
+
+#menu{
+    align-items: center;
+    display: flex;
+}
+.header-image{
+    margin-left: 100px;
+}
+.option-on{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.login{
+    margin-left: 372px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.logup{
+    margin-left: 45px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 7px 12px;
+}
+.block{
+    width: 400px;
+    height: 350px;
+    margin-left: 33%;
+    margin-top: 5%;
+    background-color: #ffffff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+#form-block{
+    margin-left: 28%;
+}
+.tittle{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sign{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: #72C4D7;
+    border: none;
+    padding: 5px 10px;
+}
+.dis{
+    margin-top: 20px;
+    position: absolute;
+}
+.form{
+    padding: 5px 10px;
+}
