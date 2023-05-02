@@ -110,3 +110,6 @@ header{
             display: inline;
             margin-left: 10%;        
         }
+        ::-webkit-scrollbar {
+            width: 0;
+          }
