@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj": {}
+    "C:\\Users\\p.d.pikuschikh\\Documents\\GitHub\\Inspire.me.github.io\\back-end\\ban.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj": {
+    "C:\\Users\\p.d.pikuschikh\\Documents\\GitHub\\Inspire.me.github.io\\back-end\\ban.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj",
+        "projectUniqueName": "C:\\Users\\p.d.pikuschikh\\Documents\\GitHub\\Inspire.me.github.io\\back-end\\ban.csproj",
         "projectName": "ban",
-        "projectPath": "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\ban.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\group proj\\Inspire.me\\back-end\\obj\\",
+        "projectPath": "C:\\Users\\p.d.pikuschikh\\Documents\\GitHub\\Inspire.me.github.io\\back-end\\ban.csproj",
+        "packagesPath": "C:\\Users\\p.d.pikuschikh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\p.d.pikuschikh\\Documents\\GitHub\\Inspire.me.github.io\\back-end\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\p.d.pikuschikh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -41,6 +41,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
@@ -62,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
