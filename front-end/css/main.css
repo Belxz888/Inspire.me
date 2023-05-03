@@ -41,9 +41,7 @@ button{
 .img_header{
     margin-bottom: 30%;
 }
-article{
-    justify-content: center;
-}
+
 h2{
     display: flex;
     font-size: 35px;
@@ -54,18 +52,20 @@ h1{
     font-size: 50px;
     align-items: center;
 }
-.block{
-    margin-left: 30%;
-}
+
 .goals{
     color: black;
     text-decoration: none;
-    margin-left: 17%;
+
 }
 .start-btn{
     border: none;
     background-color: rgb(151, 203, 249);
     font-size: 30px;
     padding: 10px 15px;
-    margin-left: 18%;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
 }
