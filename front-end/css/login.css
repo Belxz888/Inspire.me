@@ -3,39 +3,55 @@ body{
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: #7daab6;
 }
-header{
-    background-color: #72C4D7;
-    width: 100%;
-    height: 140px;
-}
-
-#menu{
-    align-items: center;
-    display: flex;
-}
 .header-image{
-    margin-left: 100px;
+    background-color: #56B8CD;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    background-color: #56B8CD;
+    word-spacing: 70px;
+   
+}
+.navmenu{
+    font-size: 25px;
+    gap: 30px;
 }
 .option-on{
-    font-size: 24px;
-    color: black;
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 23px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
     text-decoration: none;
-    margin-left: 35px;
+    color: black;
+}
+.lang{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.tema{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
 }
 .login{
-    margin-left: 372px;
-    font-size: 20px;
-    text-decoration: none;
     color: black;
 }
 .logup{
-    margin-left: 45px;
-    font-size: 20px;
-    text-decoration: none;
     color: black;
-    background-color: #ffffff;
-    border-radius: 7px;
-    padding: 7px 12px;
 }
 .block{
     width: 400px;
@@ -44,6 +60,9 @@ header{
     margin-top: 5%;
     background-color: #ffffff;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+#pas-datas-c{
+    display: none
 }
 #form-block{
     margin-left: 28%;
@@ -67,4 +86,9 @@ button{
 }
 .form{
     padding: 5px 10px;
+}
+article{
+    background-color: #7daab6;
+    width: 100%;
+    height: 100%;
 }
