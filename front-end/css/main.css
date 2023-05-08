@@ -1,4 +1,6 @@
-
+::-webkit-scrollbar {
+    width: 0;
+  }
     body{
         margin: 0;
         font-family: 'PT Sans Narrow', sans-serif;
@@ -167,15 +169,12 @@
         width: 100%;
         height: 450px;
         background-color: #fff;
+        margin-top: 70px;
     }
     .motivation{
         font-size: 70px;
         margin-top: 70px;
         display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-content: flex-end;
     }
     .img1{
         width: 240px;
@@ -184,39 +183,66 @@
     .image-prof{
         margin-top: 70px;
     }
-    
-    .mainmotivation{
-        color: #FDBF5E;
-        margin-right: 20%;
-        font-weight: bolder;
-       align-items: center;
+    .img2{
+        width: 200px;
+        height: 200px;
+        padding: 0px 60px;
     }
-    .firstmotivation{
-        color: #FDBF5E;
-        margin-left: 4%;
-        margin-top: 10%;
+    .img3{
+        width: 200px;
+        height: 200px;
+        padding: 0px 165px;
     }
-    .fistmtimg{
-        width: 100px;
-        height: 100px;
-        margin-right: 60%;
+    .first-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        font-weight: bold;
     }
-    .sectimg{
-        width: 100px;
-        height: 100px;
+    .second-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 60px;
     }
-    .secondmotivation{
-        color: #FDBF5E;
-        margin-right: 40%;
-        margin-top: 10%;
+    .third-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 60px;
+        margin-left: 100px;
     }
-    .lastmotivation{
-        color: #FDBF5E;
-        margin-left: 24%;
-        margin-top: 10%;
+    .forst-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 60px;
+        
     }
+    #statistica{
+        background-color: #FDBF5E;
+        width: 100%;
+        height: 300px;
+        margin-top: 700px;
+    }
+    .pipl{
+        font-size: 25px;
+    }
+    .pipl-stat{
+        margin-top: 20px;
+        border: solid 2px #19354F;
+        width: 200px;
+        height: 50px;
+    }
+
     @media screen and (max-width: 1200px) {
-    
     }
     
     @media screen and (max-width: 998px) {
