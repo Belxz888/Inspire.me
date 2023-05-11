@@ -1,8 +1,8 @@
-using System.Text.Json;
+/*using System.Text.Json;
 
 namespace Main
 {
-    public class Deserialize : Program
+    public class Deserialize : Program1
     {
         public static void DeserializeMain()
         {
@@ -18,4 +18,4 @@ namespace Main
             Console.WriteLine(jsonDeString);  
         }
     }
-}
+}*/

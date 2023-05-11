@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Npgsql;
@@ -24,22 +24,10 @@ namespace Main
             public string? Name { get; set; }
             public int Age { get; set; }
         }
-        public class ApplicationContext : DbContext
-        {
-                public DbSet<User> Users { get; set; } = null!;
-            
-                public ApplicationContext()
-                {
-                    Database.EnsureCreated();
-                }
-                protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-                {
-                    optionsBuilder.UseNpgsql("Host=http://localhost:7034;Port=5432;Database=postgresql;Username=postgres;Password=123");
-                }
-        }
+       
+        
     public class Program 
     {
-        
 
         public static void Main()
         {
@@ -71,27 +59,7 @@ namespace Main
             Console.WriteLine(jsonDeString);
 
             
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                // создаем два объекта User
-                User user1 = new User { Name = "Tom", Age = 33 };
-                User user2 = new User { Name = "Alice", Age = 26 };
-            
-                // добавляем их в бд
-                db.Users.AddRange(user1, user2);
-                db.SaveChanges();
-            }
-            // получение данных
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                // получаем объекты из бд и выводим на консоль
-                var users = db.Users.ToList();
-                Console.WriteLine("Users list:");
-                foreach (User u in users)
-                {
-                    Console.WriteLine($"{u.Id}.{u.Name} - {u.Age}");
-                }
-            }
+           
             /*
             var builder = WebApplication.CreateBuilder(args);
             var app = builder.Build();
@@ -99,8 +67,33 @@ namespace Main
             app.MapGet("/", () => "Hello World");
 
             app.Run();
-            */
+            
         }   
             
     }
-}
+} */
+var builder = WebApplication.CreateBuilder(args); 
+ 
+// Add services to the container. 
+builder.Services.AddRazorPages(); 
+ 
+var app = builder.Build(); 
+ 
+// Configure the HTTP request pipeline. 
+if (!app.Environment.IsDevelopment()) 
+{ 
+    app.UseExceptionHandler("/Error"); 
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts. 
+    app.UseHsts(); 
+} 
+ 
+app.UseHttpsRedirection(); 
+app.UseStaticFiles(); 
+ 
+app.UseRouting(); 
+ 
+app.UseAuthorization(); 
+ 
+app.MapRazorPages(); 
+ 
+app.Run();
