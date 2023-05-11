@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Личный кабинет</title>
+  <style>
+    /* Общие стили */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    /* Стили для мобильных устройств */
+    @media (max-width: 767px) {
+      /* Добавляем отступы для мобильных устройств */
+      body {
+        padding: 20px;
+      }
+    }
+    
+    /* Стили для планшетов и десктопов */
+    @media (min-width: 768px) {
+      /* Добавляем отступы для планшетов и десктопов */
+      body {
+        padding: 40px;
+      }
+      
+      /* Размещаем элементы в две колонки */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .left-column {
+        flex: 1;
+        margin-right: 20px;
+      }
+      
+      .right-column {
+        flex: 1;
+        margin-left: 20px;
+      }
+    }
+    
+    /* Стили для заголовка */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .user-info {
+      display: flex;
+      align-items: center;
+    }
+    
+    .user-info__name {
+      margin-right: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .user-info__photo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    /* Стили для списка целей */
+    .goals {
+      list-style: none;
+      margin-bottom: 20px;
+    }
+    
+    .goal {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    .goal__name {
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .goal__price {
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .goal__button {
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .goal__button:hover {
+      background-color: #555;
+    }
+    
+    /* Стили для футера */
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <div class="header">
+        <div class="logo">Личный кабинет</div>
+        <div class="user-info">
+          <div class="user-info__name">Иван Иванов</div>
+          <img class="user-info__photo" src="https://via.placeholder.com/50" alt="Фото пользователя">
+        </div>
+      </div>
+      <ul class="goals">
+        <li class="goal">
+          <div class="goal__name">Похудеть на 5 кг</div>
+          <div class="goal__price">5000 руб.</div>
+          <button class="goal__button">Узнать больше</button>
+        </li>
+        <li class="goal">
+          <div class="goal__name">Начать заниматься спортом</div>
+          <div class="goal__price">10000 руб.</div>
+          <button class="goal__button">Узнать больше</button>
+        </li>
+        <li class="goal">
+          <div class="goal__name">Научиться готовить</div>
+          <div class="goal__price">20000 руб.</div>
+          <button class="goal__button">Узнать больше</button>
+        </li>
+      </ul>
+    </div>
+    <div class="right-column">
+      <!-- Здесь может быть другая информация о пользователе -->
+    </div>
+  </div>
+  <div class="footer">&copy; 2023 GoalSetter</div>
+</body>
+</html>

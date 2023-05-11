@@ -1,7 +1,5 @@
 body{
-    margin: 0px;
-    font-family: 'PT Sans Narrow', sans-serif;
-    background-color: #5d8f9b;
+    background-color:#4d92a1 ;
 }
 .header-image{
     background-color: #56B8CD;
@@ -54,34 +52,60 @@ nav{
     color: black;
 }
 
-.block{
-    width: 400px;
-    height: 450px;
-    margin-left: 33%;
-    margin-top: 5%;
-    background-color: #ffffff;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color:#4d92a1 ;
+  width: 1200px;
+  margin-top: 3%;
 }
-#form-block{
-    margin-left: 28%;
+
+.goal {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+  border-radius: 10%;
 }
-.tittle{
-    margin-left: 20px;
-    margin-top: 20px;
+
+.goal h2 {
+  margin-top: 0;
 }
-.sign{
-    text-decoration: none;
-    color: black;
+
+.goal img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 5%;
 }
-button{
-    background-color: #72C4D7;
-    border: none;
-    padding: 5px 10px;
+
+.goal p {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
-.dis{
-    margin-top: 20px;
-    position: absolute;
+
+.goal button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
 }
-.form{
-    padding: 5px 10px;
+
+.goal button:hover {
+  background-color: #3e8e41;
+}
+
+@media screen and (max-width: 768px) {
+  .goal {
+    width: calc(50% - 20px);
+  }
 }
