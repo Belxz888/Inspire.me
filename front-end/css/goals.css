@@ -1,0 +1,111 @@
+body{
+    background-color:#4d92a1 ;
+}
+.header-image{
+    background-color: #56B8CD;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    background-color: #56B8CD;
+    word-spacing: 70px;
+   
+}
+.navmenu{
+    font-size: 25px;
+    gap: 30px;
+}
+.option-on{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 23px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+.lang{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.tema{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.login{
+    color: black;
+}
+.logup{
+    color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color:#4d92a1 ;
+  width: 1200px;
+  margin-top: 3%;
+}
+
+.goal {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+  border-radius: 10%;
+}
+
+.goal h2 {
+  margin-top: 0;
+}
+
+.goal img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 5%;
+}
+
+.goal p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.goal button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.goal button:hover {
+  background-color: #3e8e41;
+}
+
+@media screen and (max-width: 768px) {
+  .goal {
+    width: calc(50% - 20px);
+  }
+}
