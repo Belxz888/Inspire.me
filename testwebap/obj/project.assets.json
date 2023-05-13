@@ -1023,28 +1023,31 @@
     "net7.0": [
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
+      "Npgsql >= 7.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\p.d.pikuschikh\\.nuget\\packages\\": {}
+    "C:\\Users\\Админ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p.d.pikuschikh\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\testwebap.csproj",
+      "projectUniqueName": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\testwebap.csproj",
       "projectName": "testwebap",
-      "projectPath": "C:\\Users\\p.d.pikuschikh\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\testwebap.csproj",
-      "packagesPath": "C:\\Users\\p.d.pikuschikh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\p.d.pikuschikh\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\obj\\",
+      "projectPath": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\testwebap.csproj",
+      "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\p.d.pikuschikh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1075,6 +1078,10 @@
             "target": "Package",
             "version": "[7.0.5, )"
           },
+          "Npgsql": {
+            "target": "Package",
+            "version": "[7.0.4, )"
+          },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[7.0.4, )"
@@ -1099,7 +1106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
