@@ -1,76 +1,97 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Личный кабинет</title>
-    <link rel="stylesheet" href="../css/account.css">
-  </head>
-  <body>
-    <header>
-        <div class="header-image">
-            <a href="main.html"><img src="../imgs/logoza.ru-PhotoRoom 4.png" class="logo"></a>
+<head>
+  <meta charset="UTF-8">
+  <title>Личный кабинет</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/account.css">
+</head>
+<body>
+  <header>
+    <div class="header-image">
+        <a href="main.html"><img src="../imgs/logoza.ru-PhotoRoom 4.png" class="logo"></a>
+    </div>
+    <nav>
+        <div class="navmenu">
+            <a href="stats.html" class="option-on">Цели</a>
+            <select class="lang">
+                <option value="ru"><a href="">RU</a></option>
+                <option value="eng"><a href="">ENG</a></option>
+            </select>
+            <select class="tema">
+                <option value="ru">Светлая </option>
+                <option value="eng">Тёмная</option>
+            </select>
+                <a class="login"  href="login.html">Вход</a>
+                <a  class="logup"  href="logup.html">Регистрация</a>
         </div>
-        <nav>
-            <div class="navmenu">
-                <a href="stats.html" class="option-on">Цели</a>
-                <select class="lang">
-                    <option value="ru">RU</option>
-                    <option value="eng">ENG</option>
-                </select>
-                <select class="tema">
-                    <option value="ru">Светлая </option>
-                    <option value="eng">Тёмная</option>
-                </select>
-               
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="user-info">
-            <img class="user-info__photo" src="https://www.avtorinok.ru/cache/photo/pics/jaguar/xkr/6306-gthumb-gwdata1200-ghdata1000-gfitdatamax.jpg" alt="Фото пользователя">
-          <div class="user-info__name">Иван Иванов</div>
-          <p>О себе:</p>
-          <a>Я филаантроп , музыкант ну и еще профессиональный верстальщик</a>
-        </div>
+    </nav>
+</header>
+<main>
+  <div id="info">
+    <div class="logo-info">
+      <img src="https://img.artlebedev.ru/everything/russia-logo/russia-logo.gif" class="logo-prof">
+    </div>
+    <div class="information">
+      <p>О себе:</p>
+      <a>Я флегматик, мне 16 лет</a>
+    </div>
+  </div>
+  <ul class="ul1">
+    <div class="tittle">
+      Мои цели:
+    </div>
+    <li>
+      <div class="pos">
+        <h3>Купить машину</h3>
+        <p>Цена: $5000</p>
+        <button>Подробнее</button>
       </div>
-      <ul>
-        <h2>Мои цели</h2>
-        <li>
-          <h3>Путешествие в Италию</h3>
-          <p>Цена: $5000</p>
-          <button>Подробнее</button>
-        </li>
-        <li>
-          <h3>Купить новый автомобиль</h3>
-          <p>Цена: $30000</p>
-          <button>Подробнее</button>
-        </li>
-        <li>
-          <h3>Купить новый дом</h3>
-          <p>Цена: $500000</p>
-          <button>Подробнее</button>
-        </li>
-      </ul>
-      <ul>
-        <h2>Достигнутые цели</h2>
-        <li>
-          <h3>Путешествие в Италию</h3>
-          <p>Цена: $5000</p>
-          <button>Подробнее</button>
-        </li>
-        <li>
-          <h3>Купить новый автомобиль</h3>
-          <p>Цена: $30000</p>
-          <button>Подробнее</button>
-        </li>
-        <li>
-          <h3>Купить новый дом</h3>
-          <p>Цена: $500000</p>
-          <button>Подробнее</button>
-        </li>
-      </ul>
-    </main>
-   
-  </body>
-</html>
+    </li>
+    <li>
+      <div class="pos">
+        <h3>Слетать за границу</h3>
+        <p>Цена: $2000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+    <li>
+      <div class="pos">
+        <h3>Купить новый дом</h3>
+        <p>Цена: $10000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+  </ul>
+  <ul class="ul2"> 
+    <div class="tittle">
+      Достигнутые цели:
+    </div>
+    <li>
+      <div class="pos">
+        <h3>Купить машину</h3>
+        <p>Цена: $5000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+    <li>
+      <div class="pos">
+        <h3>Слетать за границу</h3>
+        <p>Цена: $2000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+    <li>
+      <div class="pos">
+        <h3>Купить новый дом</h3>
+        <p>Цена: $10000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+  </ul>
+</main>
+</body>
+<html>
