@@ -113,7 +113,7 @@ nav{
             margin-top: 50px;
         }
         .block{
-            border: solid 2px rgb(133, 133, 133);
+            border: solid 2px rgb(150, 150, 150);
             width: 80%;
             height: 500px;
             margin-top: 30px;
@@ -127,4 +127,12 @@ nav{
             display: flex;
            
             
+        }
+        button{
+            border: none;
+            padding: 5px 10px;
+        }
+        #super{
+            border: none;
+            background-color: rgb(228, 228, 228);
         }
