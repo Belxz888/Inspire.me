@@ -38,6 +38,7 @@
                     <h1 class="tittle">
                     Регистрация
                     </h1>
+                    <form action="myurl" method="POST" name="myForm" id="vsio">
                         <p>
                         <input type="text" placeholder="Логин" class="form">
                         </p>
@@ -50,11 +51,35 @@
                         <p>
                         <input type="password" placeholder="Подтвердить пароль" class="form">
                         </p>
-                <button class="reg">Зарегестрироваться</button>
+                        
+                    </form>
+                <button class="reg" value="Submit" type="submit" onclick="submitform()">Зарегестрироваться</button>
                 <p>Есть аккаунт?</p>
                 <button ><a href="login.html" class="sign">Войти</a></button>
             </div>
         </div>
     </article>
+    
+        <script type="text/javascript">
+            /*
+    function submitform()
+    {
+       
+        let myForm = document.getElementsById("vsio");
+        let jsonData ={
+            html:content.innerHTML
+        };
+        let jsonContent= JSON.stringify(jsonData);
+        let blob = new Blob([jsonContent], {type: "application/json"});
+        let url = URL.createObjectURL(blob);
+        let link = document.createElement("a");
+        link.download = "content.json";
+        link.href = url;
+        link.click();
+        
+        
+       
+    }*/
+    </script>
 </body>
 </html>
