@@ -55,14 +55,14 @@ document.querySelector('#super').addEventListener("keydown",(event)=>{
     for (let index =0;index<checkinp.length ; index++){
     checkinp[index].onclick= () =>{ 
            if (checkinp[index].checked){
-   complmes[index].innerHTML = 'completed';
+   complmes[index].innerHTML = '';
    timerID = setTimeout(function() {
     var element = taskplank[index];
     element.parentNode.removeChild(element);
     }, 2000);
            }
            else if (!checkinp[index].checked){
-            complmes[index].innerHTML = ' not completed';
+            complmes[index].innerHTML = '';
             console.log("dc");
             clearTimeout(timerID);
 
@@ -96,6 +96,22 @@ console.log(e.target.value)
  {
     console.log("d")
  }*/
+ const con =
+ document.querySelector('.task');
+ const item =
+ document.querySelectorAll('#tasks');
+
+ function handleFlexWrap() {
+    if (window.innerWidth < 600)
+    {
+        con.style.flexWrap =
+        'wrap';
+    } else {
+        con.style.flexWrap = 
+        'nowrap';
+    }
+}
+ handleFlexWrap();
  
- 
+ window.addEventListener('resize', handleFlexWrap);
 	

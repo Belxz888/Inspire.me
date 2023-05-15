@@ -5,157 +5,133 @@
   padding: 0;
 }
 
-body {
-  font-family: Arial, sans-serif;
-}
-
-.header-image{
-    background-color: #56B8CD;
-    display: flex;
-    justify-content: center;
-}
-.logo{
-    max-width: 100%;
-    box-sizing: border-box;
-}
-nav{
-    display: flex;
-    justify-content: center;
-    height: 45px;
-    background-color: #56B8CD;
-    word-spacing: 70px;
-   
-}
-.navmenu{
-    font-size: 25px;
-    gap: 30px;
-}
-.option-on{
-    border: solid rgb(255, 255, 255) 2px;
-    font-size: 23px;
-    background-color: #fff;
-    border-radius: 7px;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: black;
-}
-.lang{
-    border: solid rgb(255, 255, 255) 2px;
-    font-size: 20px;
-    background-color: #fff;
-    border-radius: 7px;
-    padding: 5px 10px;
-}
-.tema{
-    border: solid rgb(255, 255, 255) 2px;
-    font-size: 20px;
-    background-color: #fff;
-    border-radius: 7px;
-    padding: 5px 10px;
-}
-.login{
-    color: black;
-}
-.logup{
-    color: black;
-}
-main {
-  margin: 20px;
-  display: inline-flex
-}
-
-main h2 {
-  margin-bottom: 20px;
-  margin-left: 30%;
-}
-
-main ul {
-  list-style: none;
+body{
   margin: 0;
-  padding: 0;
-margin-left: 20%;
-margin-top: 10%;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-
-  }
-  
-  .user-info {
-    display: flex;
-    align-items: center;
-  }
-  
-  .user-info__name {
-    margin-right: 10px;
-    font-weight: bold;
-    color: #333;
-    font-size: 40px;
-  }
-  
-  .user-info__photo {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-main li {
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-  padding: 20px;
-  width: 300px;
+a{
+  text-decoration: none;
 }
-
-main h3 {
-  margin-top: 0;
-}
-
-main p {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-main button {
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-  padding: 10px 20px;
-  transition: background-color 0.3s ease;
-}
-
-main button:hover {
-  background-color: #3e8e41;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+article{
   text-align: center;
 }
-
-@media screen and (max-width: 768px) {
-  header {
-    flex-direction: column;
-  }
-
-  nav {
-    margin-top: 20px;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    margin-left: 0;
-    margin-bottom: 10px;
-  }
+.header-image{
+  background-color: #56B8CD;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  max-width: 100%;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  background-color: #fff;
+  word-spacing: 130px;
+  margin-top: 15px;
+}
+.navmenu{
+  font-size: 25px;
+  gap: 30px;
+}
+.option-on{
+  color: black;
+}
+.lang{
+  border: solid rgb(255, 255, 255) 2px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+.tema{
+  border: solid rgb(255, 255, 255) 2px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+.login{
+  color: black;
+}
+.logup{
+  color: black;
+}
+main {
+  display: inline-flex;
+}
+.logo-prof{
+  width: 200px;
+  height: 200px;
+}
+#info{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 450px;
+  margin-top: 100px;
+  position: absolute;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px black;
+  width: 250px;
+  height: 50px;
+  margin-top: 10px;
+}
+.logo-info{
+  border: solid 2px black;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 830px;
+}
+li{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+.tittle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+button{
+  background-color: #56B8CD;
+  border: none;
+  padding: 5px 10px;
+}
+.pos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ul1{
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 910px;
+}
+.ul2{
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 85px;
 }
