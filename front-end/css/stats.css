@@ -51,6 +51,7 @@ nav{
 .task{
     color: black;
     background-color: #fff;
+    border-radius: 7px;
     width: 250px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -60,6 +61,9 @@ nav{
     padding: 5px 10px;
     margin-left: 20px;
     margin-top: 20px;
+    overflow: hidden;
+    flex-basis: 33.33%;
+    flex-grow: 1;
 }
         @keyframes disapear {
             0%{
@@ -114,9 +118,17 @@ nav{
         }
         .block{
             border: solid 2px rgb(150, 150, 150);
+            border-radius: 7px;
             width: 80%;
             height: 500px;
             margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+          
+            align-items: center;
+            overflow: auto;
+            max-width: 1000px;
+        
         }
         #block{
             display: flex;
@@ -125,8 +137,9 @@ nav{
         }
         #tasks{
             display: flex;
-           
-            
+            flex-basis: 33.33%;
+            flex-grow: 1;
+            flex-wrap: wrap;
         }
         button{
             border: none;
@@ -135,4 +148,9 @@ nav{
         #super{
             border: none;
             background-color: rgb(228, 228, 228);
+            border-radius: 7px;
+        }
+        #sub{
+            border-radius: 7px;
+            margin-left: 5px;
         }

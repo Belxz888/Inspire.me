@@ -1,6 +1,4 @@
-const LangArr = {
-    "option-on" : {
-        "ru": "Цели",
-        "eng": "Goals"
-    }
+const chg = () =>{
+    window.location.href = "maineng.html"
+    console.log("hee")
 }
