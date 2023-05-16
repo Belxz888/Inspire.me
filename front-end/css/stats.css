@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: 'PT Sans Narrow', sans-serif;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
 .header-image{
     background-color: #56B8CD;
     display: flex;
@@ -62,8 +66,14 @@ nav{
     margin-left: 20px;
     margin-top: 20px;
     overflow: hidden;
-    flex-basis: 33.33%;
+    flex-basis: 20%;
     flex-grow: 1;
+    margin-right: 20px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #19354F;
 }
         @keyframes disapear {
             0%{

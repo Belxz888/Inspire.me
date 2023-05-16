@@ -71,7 +71,7 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  margin-left: -860px;
   margin-top: 100px;
   position: absolute;
 }
@@ -130,7 +130,7 @@ button{
 .ul1{
   list-style: none;
   margin-top: 40px;
-  margin-left: 470px;
+  margin-left: -480px;
 }
 .ul2{
   list-style: none;
