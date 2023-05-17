@@ -83,6 +83,9 @@
         font-size: 75px;
         font-weight: bold;
     }
+    .goals :hover{
+        border-bottom: 2px solid black;
+    }
     .start{
         margin-top: 60px;
     }
