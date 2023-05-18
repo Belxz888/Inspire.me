@@ -3,10 +3,9 @@ namespace WebApi.Controllers;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 
-
 [ApiController] 
 [Route("[controller]")] 
-public class UsersController : IUserService
+public class UsersController : ControllerBase 
 { 
     public IUserService _userService; 
     public IMapper _mapper; 
@@ -18,34 +17,34 @@ public class UsersController : IUserService
     } 
  
     [HttpGet] 
-    public new IActionResult GetAll() 
+    public  IActionResult GetAll() 
     { 
-        var users = _userService.GetAll(); 
+        string users = _userService.GetAll(); 
         return Ok(users); 
     } 
  
-    [HttpGet("{id}")] 
-    public new  IActionResult GetById(int id) 
+    [HttpGet("{id}/name")] 
+    public  IActionResult GetById(int id) 
     { 
-        var user = _userService.GetById(id);
+        string user = _userService.GetById(id);
         return Ok(user); 
     } 
  
     [HttpPost] 
-    public  IActionResult Create(CreateRequest model) 
+    public  IActionResult Create(int id, CreateRequest model) 
     { 
         _userService.Create(model); 
         return Ok(new { message = "User created" }); 
     } 
  
-    [HttpPut("{id}")] 
+    [HttpPut("{id}/name")] 
     public  IActionResult Update(int id, UpdateRequest model) 
     { 
         _userService.Update(id, model); 
         return Ok(new { message = "User updated" }); 
     } 
  
-    [HttpDelete("{id}")] 
+    [HttpDelete("{id}/name")] 
     public IActionResult Delete(int id) 
     { 
         _userService.Delete(id); 

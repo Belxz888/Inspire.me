@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MRuopvcoePfDZZbrKBdLUiNO3UmZLExfLEyLo4iQrBDSTLSuz2dbmK5noR/kCqAPsvjZUHHe7j5n3Rv+wsDPbA==",
+  "dgSpecHash": "pq64fLTuSx9gXYFLgddu1A/1YhVZnwGxBkthJUdW6z3taRiYPdq/dq60jZJD7viGspwJ4vpryxAt4eDDW9bOew==",
   "success": true,
   "projectFilePath": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\testwebap.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Админ\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Админ\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
