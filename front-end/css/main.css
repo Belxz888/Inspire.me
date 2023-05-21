@@ -1,12 +1,11 @@
-::-webkit-scrollbar {
-    width: 0;
-  }
+
   header{
     user-select: none;
   }
     body{
         margin: 0;
         font-family: 'PT Sans Narrow', sans-serif;
+        width: 100%;
     }
     a{
         text-decoration: none;
@@ -733,6 +732,7 @@
         }
     }
     
+
     @media screen and (max-width: 1120px) {
         ::-webkit-scrollbar {
             width: 0;
@@ -1101,6 +1101,7 @@
             padding: 0px 50px;
         }
     }
+    
     @media screen and (max-width: 850px) {
         ::-webkit-scrollbar {
             width: 0;
@@ -1469,6 +1470,7 @@
             padding: 0px 50px;
         }
     }
+
     
     @media screen and (max-width: 768px) {
         ::-webkit-scrollbar {

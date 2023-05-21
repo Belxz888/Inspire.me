@@ -42,22 +42,22 @@ C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\ne
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\testwebap.pdb
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\appsettings.json
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\testwebap.staticwebassets.runtime.json
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\testwebap.exe
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\testwebap.deps.json
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\testwebap.runtimeconfig.json
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\testwebap.dll
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\testwebap.pdb
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Humanizer.dll
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Npgsql.dll
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\testwebap.csproj.CopyComplete
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\testwebap.genruntimeconfig.cache
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\ref\testwebap.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\testwebap.staticwebassets.runtime.json
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\staticwebassets\msbuild.testwebap.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\staticwebassets\msbuild.build.testwebap.props
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.testwebap.props
@@ -65,9 +65,22 @@ C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\ne
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\scopedcss\bundle\testwebap.styles.css
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\scopedcss\projectbundle\testwebap.bundle.scp.css
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\testwebap.csproj.CopyComplete
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\testwebap.genruntimeconfig.cache
-C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\ref\testwebap.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\WebApi.Models.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.AssemblyInfo.cs
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.dll
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\refint\testwebap.dll
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.pdb

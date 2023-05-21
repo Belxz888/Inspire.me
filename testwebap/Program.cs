@@ -14,7 +14,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler("Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
@@ -24,11 +24,20 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
-
 app.MapRazorPages();
 
+
+app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
+});
+
 app.Run();
+
 public class IdSerialize
         {
             public DateTimeOffset DateS { get; set; }
@@ -42,46 +51,9 @@ public class IdSerialize
             public string? Summary{ get; set; }
         }
         public class User
+
         {
             public int Id { get; set; }
             public string? Name { get; set; }
             public int Age { get; set; }
         }
-       
-        
-   /* public class Program 
-    {
-
-        public static void Main()
-        {
-            var idSerialize= new IdSerialize
-            {
-                DateS = DateTime.Parse("2019-08-01"),
-                TemperatureCelsiusS = 25,
-                SummaryS = "Hot"   
-            };
-
-            string jsonString = JsonSerializer.Serialize(idSerialize);
-            File.WriteAllText("JsonSerialize.json", jsonString);
-            Console.WriteLine(jsonString);
-            
-
-            //Десериализация
-            string jsonDeString =
-            @"{
-            ""Date"": ""2019-08-01T00:00:00-07:00"",
-            ""TemperatureCelsius"": 25,
-            ""Summary"": ""Hot""
-            }
-            ";
-
-            
-
-            
-           
-           
-            
-        }   
-            
-    }
-    */

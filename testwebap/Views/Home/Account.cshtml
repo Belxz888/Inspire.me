@@ -1,0 +1,114 @@
+@page
+
+@{
+   
+}
+<head>
+  <meta charset="UTF-8">
+  <title>Личный кабинет</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/account.css">
+</head>
+<body>
+  <header>
+    <div class="header-image">
+        <a asp-controller="Home" asp-action="Index"><img src="../imgs/logoza.ru-PhotoRoom 4.png" class="logo"></a>
+    </div>
+    <nav>
+        <div class="navmenu">
+            <a asp-controller="Home" asp-action="Goals" class="option-on">Цели</a>
+            <select class="lang">
+                <option value="ru"><a asp-controller="Home" asp-action="">RUS</a></option>
+                <option value="eng"><a asp-controller="Home" asp-action="">ENG</a></option>
+            </select>
+            <select class="tema">
+                <option value="ru">Светлая </option>
+                <option value="eng">Тёмная</option>
+            </select>
+                <a class="login" asp-controller="Home" asp-action="Login">Вход</a>
+                <a  class="logup" asp-controller="Home" asp-action="Logup">Регистрация</a>
+        </div>
+    </nav>
+</header>
+<article>
+<main>
+  <div id="info">
+    
+    <div class="logo-info">
+      <img src="https://img.artlebedev.ru/everything/russia-logo/russia-logo.gif" class="logo-prof">
+    </div>
+    <div class="information">
+      <p>О себе:</p>
+      <a>Я флегматик, мне 16 лет</a>
+    </div>
+  </div>
+  <ul class="ul1">
+    <div class="tittle">
+      Мои цели:
+    </div>
+    <li>
+      <div class="pos">
+        <h3>Купить машину</h3>
+        <p>Цена: $5000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+    <li>
+      <div class="pos">
+        <h3>Слетать за границу</h3>
+        <p>Цена: $2000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+    <li>
+      <div class="pos">
+        <h3>Купить новый дом</h3>
+        <p>Цена: $10000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+  </ul>
+  <ul class="ul2"> 
+    <div class="tittle">
+      Достигнутые цели:
+    </div>
+    <li>
+      <div class="pos">
+        <h3>Купить машину</h3>
+        <p>Цена: $5000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+    <li>
+      <div class="pos">
+        <h3>Слетать за границу</h3>
+        <p>Цена: $2000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+    <li>
+      <div class="pos">
+        <h3>Купить новый дом</h3>
+        <p>Цена: $10000</p>
+        <button>Подробнее</button>
+      </div>
+    </li>
+  </ul>
+</main>
+</article>
+<footer>
+        <div class="cont">
+            <div class="logo-foot">
+                <img src="../imgs/logoza.ru-PhotoRoom 4.png">
+            </div>
+            <div class="soc">
+                <a href="https://vk.com/undertakero"><img src="../imgs/VK_Compact_Logo_(2021-present).svg.webp" class="vk"></a>
+                <a href="https://web.telegram.org/a/#1995608519"><img src="../imgs/Telegram_2019_Logo.svg.webp" class="vk"></a>
+            </div>
+            Телефоны для связи:
+            +7 982 120 6764
+        </div>
+    </footer>
+</body>
