@@ -1,0 +1,55 @@
+@page
+@{
+
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/stats.css">
+    <title>Создание целей</title>
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <a asp-controller="Home" asp-action="Indexeng"><img src="../imgs/logoza.ru-PhotoRoom 4.png" class="logo"></a>
+        </div>
+        <nav>
+            <div class="navmenu">
+                <a asp-controller="Home" asp-action="Goals"class="option-on">Goals</a>
+                    <a asp-controller="Home" asp-action="Stats">Ru</a>
+                    <a asp-controller="Home" asp-action="Statseng">Eng</a>
+                    <a class="login"  asp-controller="Home" asp-action="Login">Sign-in</a>
+                    <a  class="logup"  asp-controller="Home" asp-action="Logup">Sign-up</a>
+            </div>
+        </nav>
+    </header>
+    <article id="block">
+          <div id="main-stats">
+              <input id="super">
+              <button id="sub" onclick="made()">Add</button>
+          </div>
+          <div class="block">
+              <p id="new"></p>
+              <div id="tasks"></div>
+              <script src="../js/goals.js"></script>
+          </div>
+          <img src="../imgs/goalsapp.gif">
+      </article>
+      <footer>
+        <div class="cont">
+            <div class="logo-foot">
+                <img src="../imgs/logoza.ru-PhotoRoom 4.png">
+            </div>
+            <div class="soc">
+                <a href="https://vk.com/undertakero"><img src="../imgs/VK_Compact_Logo_(2021-present).svg.webp" class="vk"></a>
+                <a href="https://web.telegram.org/a/#1995608519"><img src="../imgs/Telegram_2019_Logo.svg.webp" class="vk"></a>
+            </div>
+            Телефоны для связи:
+            +7 982 120 6764
+        </div>
+    </footer>
+</body>

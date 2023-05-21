@@ -1,0 +1,144 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+article{
+  text-align: center;
+}
+.header-image{
+  background-color: #56B8CD;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  max-width: 100%;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  background-color: #fff;
+  word-spacing: 130px;
+  margin-top: 15px;
+}
+.navmenu{
+  font-size: 25px;
+  gap: 30px;
+}
+.option-on{
+  color: black;
+}
+.lang{
+  border: solid rgb(255, 255, 255) 2px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+.tema{
+  border: solid rgb(255, 255, 255) 2px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+.login{
+  color: black;
+}
+.logup{
+  color: black;
+}
+main {
+  display: inline-flex;
+}
+.logo-prof{
+  width: 200px;
+  height: 200px;
+}
+#info{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: -860px;
+  margin-top: 100px;
+  position: absolute;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px rgb(157, 157, 157);
+  border-radius: 7px;
+  width: 250px;
+  height: 50px;
+  margin-top: 10px;
+}
+.logo-info{
+  border: solid 2px rgb(157, 157, 157);
+  border-radius: 7px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 830px;
+}
+li{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+.tittle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+button{
+  background-color: #56B8CD;
+  border: none;
+  padding: 5px 10px;
+}
+.pos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ul1{
+  list-style: none;
+  margin-top: 40px;
+  margin-left: -480px;
+}
+.ul2{
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 85px;
+}
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

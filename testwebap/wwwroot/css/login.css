@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+body{
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+article{
+    text-align: center;
+}
+.header-image{
+    background-color: #56B8CD;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    background-color: #fff;
+    word-spacing: 130px;
+    margin-top: 15px;
+}
+.navmenu{
+    font-size: 25px;
+    gap: 30px;
+}
+.option-on{
+    color: black;
+}
+.lang{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.tema{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.login{
+    color: black;
+}
+.logup{
+    color: black;
+}
+.lang{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.tema{
+    border: solid rgb(255, 255, 255) 2px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.login{
+    color: black;
+}
+.logup{
+    color: black;
+}
+.block{
+    width: 400px;
+    height: 350px;
+    margin-top: 5%;
+    background-color: #9bdae8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+#pas-datas-c{
+    display: none
+}
+#form-block{
+    margin-left: 28%;
+}
+.tittle{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sign{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+}
+.dis{
+    margin-top: 20px;
+    position: absolute;
+}
+.form{
+    padding: 5px 10px;
+}
+#login{
+    border: none;
+    padding: 5px 10px;
+}
+#password{
+    border: none;
+    padding: 5px 10px;
+}
+#block{
+    display: flex;
+    justify-content: center;
+}

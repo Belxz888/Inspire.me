@@ -1,0 +1,151 @@
+@page
+@{
+
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/maineng.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <a asp-controller="Home" asp-action="Indexeng"><img src="../imgs/logoza.ru-PhotoRoom 4.png" class="logo"></a>
+        </div>
+        <nav>
+            <div class="navmenu">
+                <a asp-controller="Home" asp-action="Goals" class="option-on">Goals</a>
+                    <a asp-controller="Home" asp-action="Index">Rus</a>
+                    <a asp-controller="Home" asp-action="Indexeng">Eng</a>
+                    <a class="login"  asp-controller="Home" asp-action="Login">Sign-in</a>
+                    <a  class="logup"  asp-controller="Home" asp-action="Logup">Sign-up</a>
+            </div>
+        </nav>
+    </header>
+    <article>
+        <div class="tittle1">
+            <img src="../imgs/shest.png" class="shest-img">
+            Create a successful<br>
+            future with us
+            <img src="../imgs/shest.png" class="shest-img2">
+        </div>
+        <div class="tittle2">
+            SERVICE FOR ACHIEVING
+        </div>
+        <a asp-controller="Home" asp-action="Goals" class="goals">GOALS</a> 
+        <div class="start">
+            <a asp-controller="Home" asp-action="Logup" class="start-btn" >Start</a>
+        </div>
+        <div class="arrow">
+            <img src="../imgs/arrow.png">
+        </div>
+    </article>
+
+    <article id="down">
+        <div class="diskr1">
+            <div class="con">
+                <img src="../imgs/login.png" class="dis-image">
+                <div class="word">
+                    To get started
+                    <a href="#" class="text">sign-in</a><br>
+                    or   
+                    <a href="#" class="text">sign-up</a>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="diskr2">
+            <div class="con2">
+                
+                <div class="word2">
+                    Next create  
+                    <a href="#" class="text">goals</a>
+                </div>
+                <img src="../imgs/goals.png" class="dis2-image">
+            </div>
+        </div>
+        <div class="diskr3">
+            <div class="con3">
+                <img src="../imgs/complete.png" class="dis3-image">
+                <div class="word3">
+                    And finally start<br>
+                    fulfilling your goals!
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="motivate">
+            <div class="first-block">
+                Goals can achieve anything<br>
+                
+                
+            </div>
+            <div class="second-block">
+                <li>Quit bad habits</li>
+                <img src="../imgs/63727.png" class="img2"> 
+            </div>
+            <div class="third-block">
+                <li>Start regular exercise<br>
+                </li>
+                <img src="../imgs/2738884.png" class="img3">
+            </div>
+            <div class="forst-block">
+                And much more
+            </div>
+            <div class="image-prof">
+                <img src="../imgs/Frame 1.png" class="img1">
+                <img src="../imgs/Group 1.png" class="img1">
+                <img src="../imgs/Group 2.png" class="img1">
+            </div>
+    </article>
+
+    <article id="statistica">
+        <div id="main-stat">
+            <div class="stat1">
+                <div class="pipl">
+                    So many people have set goals
+                </div>
+                <div class="pipl-stat">
+                    1243
+                </div>
+            </div>
+            <div class="stat2">
+                <div class="pipl2">
+                    How many goals have been set
+                </div>
+                <div class="pipl2-stat">
+                    13221
+                </div>
+            </div>
+            <div class="stat3">
+                <div class="pipl3">
+                    How many goals have been achieved
+                </div>
+                <div class="pipl3-stat">
+                    3006
+                </div>
+            </div>
+        </div>
+    </article>
+
+   <footer>
+        <div class="cont">
+            <div class="logo-foot">
+                <img src="../imgs/logoza.ru-PhotoRoom 4.png">
+            </div>
+            <div class="soc">
+                <a href="https://vk.com/undertakero"><img src="../imgs/VK_Compact_Logo_(2021-present).svg.webp" class="vk"></a>
+                <a href="https://web.telegram.org/a/#1995608519"><img src="../imgs/Telegram_2019_Logo.svg.webp" class="vk"></a>
+            </div>
+            Телефоны для связи:
+            +7 982 120 6764
+        </div>
+    </footer>
+</body>

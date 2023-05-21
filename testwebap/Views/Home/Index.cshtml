@@ -1,0 +1,155 @@
+﻿@page
+
+@{
+   
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <a asp-controller="Home" asp-action="Index"><img src="../imgs/logoza.ru-PhotoRoom 4.png" class="logo"></a>
+        </div>
+        <nav>
+            <div class="navmenu">
+                <a asp-controller="Home" asp-action="Goals"class="option-on">Цели</a>
+                    <a asp-controller="Home" asp-action="Index">Rus</a>
+                    <a asp-controller="Home" asp-action="IndexEng">Eng</a>
+                    <a class="login"  asp-controller="Home" asp-action="Login">Вход</a>
+                    <a  class="logup"  asp-controller="Home" asp-action="Logup">Регистрация</a>
+            </div>
+        </nav>
+    </header>
+    <article>
+        
+        <div class="tittle1">
+            <img src="../imgs/shest.png" class="shest-img">
+            Создайте успешное<br>
+            будущее вместе с нами
+            <img src="../imgs/shest.png" class="shest-img2">
+        </div>
+        <div class="tittle2">
+            СЕРВИС ДЛЯ ДОСТИЖЕНИЯ
+        </div>
+        <a asp-controller="Home" asp-action="Goals"class="goals">ЦЕЛЕЙ</a> 
+        <div class="start">
+            <a asp-controller="Home" asp-action="Logup" class="start-btn" >Начать</a>
+        </div>
+        <div class="arrow">
+            <img src="../imgs/arrow.png">
+        </div>
+    </article>
+
+    <article id="down">
+        <div class="diskr1">
+            <div class="con">
+                <img src="../imgs/login.png" class="dis-image">
+                <div class="word">
+                    Для начала
+                    <a asp-controller="Home" asp-action="Login" class="text">Войдите</a><br>
+                    или   
+                    <a asp-controller="Home" asp-action="Logup" class="text">Зарегестрируйтесь</a>
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="diskr2">
+            <div class="con2">
+                
+                <div class="word2">
+                    Далее создайте 
+                    <a asp-controller="Home" asp-action="Goals" class="text">Цели</a>
+                </div>
+                <img src="../imgs/goals.png" class="dis2-image">
+            </div>
+        </div>
+        <div class="diskr3">
+            <div class="con3">
+                <img src="../imgs/complete.png" class="dis3-image">
+                <div class="word3">
+                    И наконец начни<br>
+                    выполнять свои цели!
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="motivate">
+            <div class="first-block">
+                С помощью целей<br>
+                можно достичь чего угодно
+            </div>
+            <div class="second-block">
+                <li>Бросить вредые привычки</li>
+                <img src="../imgs/63727.png" class="img2"> 
+            </div>
+            <div class="third-block">
+                <li>Начать постоянные<br>
+                занятия спортом</li>
+                <img src="../imgs/2738884.png" class="img3">
+            </div>
+            <div class="forst-block">
+                И многое другое
+            </div>
+            <div class="image-prof">
+                <img src="../imgs/Frame 1.png" class="img1">
+                <img src="../imgs/Group 1.png" class="img1">
+                <img src="../imgs/Group 2.png" class="img1">
+            </div>
+    </article>
+
+    <article id="statistica">
+        <div id="main-stat">
+            <div class="stat1">
+                <div class="pipl">
+                    Столько людей поставили цели
+                </div>
+                <div class="pipl-stat">
+                    1243
+                </div>
+            </div>
+            <div class="stat2">
+                <div class="pipl2">
+                    Сколько всего поставлено целей
+                </div>
+                <div class="pipl2-stat">
+                    13221
+                </div>
+            </div>
+            <div class="stat3">
+                <div class="pipl3">
+                    Сколько достигнуто целей
+                </div>
+                <div class="pipl3-stat">
+                    3006
+                </div>
+            </div>
+        </div>
+    </article>
+
+   <footer>
+        <div class="cont">
+            <div class="logo-foot">
+                <img src="../imgs/logoza.ru-PhotoRoom 4.png">
+            </div>
+            <div class="soc">
+                <a href="https://vk.com/undertakero"><img src="../imgs/VK_Compact_Logo_(2021-present).svg.webp" class="vk"></a>
+                <a href="https://web.telegram.org/a/#1995608519"><img src="../imgs/Telegram_2019_Logo.svg.webp" class="vk"></a>
+            </div>
+            Телефоны для связи:
+            +7 982 120 6764
+        </div>
+    </footer>
+    <script src="../js/lang.js"></script>
+    <script src="../js/changelang.js"></script>
+</body>

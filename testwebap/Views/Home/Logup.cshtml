@@ -1,0 +1,94 @@
+@page
+@{
+    var result = "";
+    if (IsPost)
+    {
+        var firstName = Request("FirstName");
+        var lastName = Request["LastName"];
+        var email = Request["Email"];
+
+        var userData = firstName + "," + lastName + "," + email + Environment.NewLine;
+        var dataFile = Server.MapPath(~/testwebap/data.json);
+        File.WriteAllText(@dataFile, userData);
+        result = "Infomation saved.";
+    }
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/logup.css">
+    <link rel="icon" href="/front-end/imgs/logoza.ru-PhotoRoom 4.png">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <a asp-controller="Home" asp-action="Index"><img src="../imgs/logoza.ru-PhotoRoom 4.png" class="logo"></a>
+        </div>
+        <nav>
+            <div class="navmenu">
+                <a asp-controller="Home" asp-action="Goals" class="option-on">Цели</a>
+                <select class="lang">
+                    <option value="ru">RU</option>
+                    <option value="eng">ENG</option>
+                </select>
+                <select class="tema">
+                    <option value="ru">Светлая </option>
+                    <option value="eng">Тёмная</option>
+                </select>
+               
+            </div>
+        </nav>
+    </header>
+    <article>
+        <div class="block">
+            <div id="form-block">
+                <div class="dis">
+                    <h1 class="tittle">
+                    Регистрация
+                    </h1>
+                    <form action="myurl" method="POST" name="myForm" id="vsio">
+                        <p>
+                        <input type="text" placeholder="Логин" class="form">
+                        </p>
+                        <p>
+                        <input type="email" placeholder="Почта" class="form">
+                        </p>
+                        <p>
+                        <input type="password" placeholder="Пароль" class="form">
+                        </p>
+                        <p>
+                        <input type="password" placeholder="Подтвердить пароль" class="form">
+                        </p>
+                        
+                    </form>
+                <button class="reg" value="Submit" type="submit" onclick="submitform()">Зарегестрироваться</button>
+                <p>Есть аккаунт?</p>
+                <button ><a asp-controller="Home" asp-action="Login"class="sign">Войти</a></button>
+            </div>
+        </div>
+    </article>
+ 
+    <footer>
+        <div class="cont">
+            <div class="logo-foot">
+                <img src="../imgs/logoza.ru-PhotoRoom 4.png">
+            </div>
+            <div class="soc">
+                <a href="https://vk.com/undertakero"><img src="../imgs/VK_Compact_Logo_(2021-present).svg.webp" class="vk"></a>
+                <a href="https://web.telegram.org/a/#1995608519"><img src="../imgs/Telegram_2019_Logo.svg.webp" class="vk"></a>
+            </div>
+            Телефоны для связи:
+            +7 982 120 6764
+        </div>
+    </footer>
+   <div>
+    @if(result! = ""){
+        <p>Result: @result</p>
+    }
+   </div>
+</body>

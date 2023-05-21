@@ -5,12 +5,184 @@
       "PackagePath": "staticwebassets\\testwebap.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\goals.css",
+      "PackagePath": "staticwebassets\\css\\goals.css"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\logup.css",
+      "PackagePath": "staticwebassets\\css\\logup.css"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\maineng.css",
+      "PackagePath": "staticwebassets\\css\\maineng.css"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\setting.css",
+      "PackagePath": "staticwebassets\\css\\setting.css"
+    },
+    {
       "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\statistic.css",
+      "PackagePath": "staticwebassets\\css\\statistic.css"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\stats.css",
+      "PackagePath": "staticwebassets\\css\\stats.css"
+    },
+    {
       "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\account.html",
+      "PackagePath": "staticwebassets\\html\\account.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\goals.html",
+      "PackagePath": "staticwebassets\\html\\goals.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\login.html",
+      "PackagePath": "staticwebassets\\html\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\logup.html",
+      "PackagePath": "staticwebassets\\html\\logup.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\main.html",
+      "PackagePath": "staticwebassets\\html\\main.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\maineng.html",
+      "PackagePath": "staticwebassets\\html\\maineng.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\new.html",
+      "PackagePath": "staticwebassets\\html\\new.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\setting.html",
+      "PackagePath": "staticwebassets\\html\\setting.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\statistic.html",
+      "PackagePath": "staticwebassets\\html\\statistic.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\stats.html",
+      "PackagePath": "staticwebassets\\html\\stats.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\statseng.html",
+      "PackagePath": "staticwebassets\\html\\statseng.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\html\\test.html",
+      "PackagePath": "staticwebassets\\html\\test.html"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\2738884.png",
+      "PackagePath": "staticwebassets\\imgs\\2738884.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\63727.png",
+      "PackagePath": "staticwebassets\\imgs\\63727.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\Ellipse 1.png",
+      "PackagePath": "staticwebassets\\imgs\\Ellipse 1.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\Frame 1.png",
+      "PackagePath": "staticwebassets\\imgs\\Frame 1.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\Group 1.png",
+      "PackagePath": "staticwebassets\\imgs\\Group 1.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\Group 2.png",
+      "PackagePath": "staticwebassets\\imgs\\Group 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\arrow.png",
+      "PackagePath": "staticwebassets\\imgs\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\card1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\card1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\card2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\card2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\card3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\card3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\complete.png",
+      "PackagePath": "staticwebassets\\imgs\\complete.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\goals.png",
+      "PackagePath": "staticwebassets\\imgs\\goals.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\goalsapp.gif",
+      "PackagePath": "staticwebassets\\imgs\\goalsapp.gif"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\login.png",
+      "PackagePath": "staticwebassets\\imgs\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\logoza.ru-PhotoRoom 4.png",
+      "PackagePath": "staticwebassets\\imgs\\logoza.ru-PhotoRoom 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\nonsmoke.webp",
+      "PackagePath": "staticwebassets\\imgs\\nonsmoke.webp"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\run.gif",
+      "PackagePath": "staticwebassets\\imgs\\run.gif"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\shest.png",
+      "PackagePath": "staticwebassets\\imgs\\shest.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\js\\changelang.js",
+      "PackagePath": "staticwebassets\\js\\changelang.js"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\js\\goals.js",
+      "PackagePath": "staticwebassets\\js\\goals.js"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\js\\lang.js",
+      "PackagePath": "staticwebassets\\js\\lang.js"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\js\\new.js",
+      "PackagePath": "staticwebassets\\js\\new.js"
     },
     {
       "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\js\\site.js",

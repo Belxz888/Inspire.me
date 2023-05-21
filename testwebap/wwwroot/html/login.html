@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Вход</title>
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <a href="main.html"><img src="../imgs/logoza.ru-PhotoRoom 4.png" class="logo"></a>
+        </div>
+        <nav>
+            <div class="navmenu">
+                
+                <a href="stats.html" class="option-on">Цели</a>
+                <select class="lang">
+                    <option value="ru">RU</option>
+                    <option value="eng">ENG</option>
+                </select>
+                <select class="tema">
+                    <option value="ru">Светлая </option>
+                    <option value="eng">Тёмная</option>
+                </select>
+                    <a class="login"  href="">Вход</a>
+                    <a  class="logup"  href="logup.html">Регистрация</a>
+            </div>
+        </nav>
+    </header>
+    <article id="block">
+        <div class="block">
+            <div id="form-block">
+                <div class="dis">
+                    <h1 class="tittle">
+                    Вход
+                    </h1>
+                        <p>
+                        <input type="email" placeholder="Почта" id="login">
+                        </p>
+                        <p>
+                        <input type="password" placeholder="Пароль" id="password">
+                        <a href="#" id="pas-datas-c" onclick="return showe(this);">Показать пароль</a>
+                        </p>
+                <button class="reg" onclick="checkdata()">Войти</button>
+                <p>Нет аккаунта?</p>
+                <button ><a href="logup.html" class="sign">Зарегистрироваться</a></button>
+            </div>
+        </div>
+    </article>
+    <script src="../js/login.js"></script>
+</body>
+</html>
