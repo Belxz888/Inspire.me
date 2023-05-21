@@ -315,9 +315,11 @@
 
     }
     footer{
-        background-color: #19354F;
+        background-color: #1a65ac;
         width: 100%;
         height: 150px;
+        display: flex;
+        justify-content: center;
     }
     .shest-img{
         width: 200px;
@@ -345,6 +347,22 @@
     .gif{
         position: absolute;
     }
+    .vk{
+        width: 50px;
+        height: 50px;
+        padding: 0px 10px;
+    }
+    .cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.logo-foot{
+    padding: 0px 60px;
+}
+.soc{
+    padding: 0px 50px;
+}
     @media screen and (max-width: 1200px) {
     }
     
