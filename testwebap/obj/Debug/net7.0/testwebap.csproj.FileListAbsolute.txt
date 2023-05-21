@@ -73,3 +73,14 @@ C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\ne
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\WebApi.Models.dll
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\bin\Debug\net7.0\ru\System.Net.Http.Formatting.resources.dll
 C:\Users\Админ\Documents\GitHub\Inspire.me.github.io\testwebap\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.AssemblyInfo.cs
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.dll
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\refint\testwebap.dll
+C:\Users\User\Desktop\group proj\Inspire.me\testwebap\obj\Debug\net7.0\testwebap.pdb
