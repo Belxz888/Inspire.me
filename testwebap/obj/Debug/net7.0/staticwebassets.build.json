@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MYInyMNkhmNCyWA8qpA4d3ftyKX/7RW66yeo+F7ig1c=",
+  "Hash": "4hP2aNNTBWDhXsL9Jy0V6LD93acwhdmzyolVoa56tKo=",
   "Source": "testwebap",
   "BasePath": "_content/testwebap",
   "Mode": "Default",
@@ -746,6 +746,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\shest.png"
+    },
+    {
+      "Identity": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\Telegram_2019_Logo.svg.webp",
+      "SourceId": "testwebap",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\",
+      "BasePath": "_content/testwebap",
+      "RelativePath": "imgs/Telegram_2019_Logo.svg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\Telegram_2019_Logo.svg.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\VK_Compact_Logo_(2021-present).svg.webp",
+      "SourceId": "testwebap",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\",
+      "BasePath": "_content/testwebap",
+      "RelativePath": "imgs/VK_Compact_Logo_(2021-present).svg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\VK_Compact_Logo_(2021-present).svg.webp"
     },
     {
       "Identity": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\js\\changelang.js",
@@ -1800,6 +1834,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\Telegram_2019_Logo.svg.webp",
+      "SourceId": "testwebap",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\",
+      "BasePath": "_content/testwebap",
+      "RelativePath": "Telegram_2019_Logo.svg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Telegram_2019_Logo.svg.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\VK_Compact_Logo_(2021-present).svg.webp",
+      "SourceId": "testwebap",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\",
+      "BasePath": "_content/testwebap",
+      "RelativePath": "VK_Compact_Logo_(2021-present).svg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\VK_Compact_Logo_(2021-present).svg.webp"
     }
   ]
 }

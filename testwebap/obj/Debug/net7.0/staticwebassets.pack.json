@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\testwebap.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\Telegram_2019_Logo.svg.webp",
+      "PackagePath": "staticwebassets\\Telegram_2019_Logo.svg.webp"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\VK_Compact_Logo_(2021-present).svg.webp",
+      "PackagePath": "staticwebassets\\VK_Compact_Logo_(2021-present).svg.webp"
+    },
+    {
       "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\css\\account.css",
       "PackagePath": "staticwebassets\\css\\account.css"
     },
@@ -119,6 +127,14 @@
     {
       "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\Group 2.png",
       "PackagePath": "staticwebassets\\imgs\\Group 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\Telegram_2019_Logo.svg.webp",
+      "PackagePath": "staticwebassets\\imgs\\Telegram_2019_Logo.svg.webp"
+    },
+    {
+      "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\VK_Compact_Logo_(2021-present).svg.webp",
+      "PackagePath": "staticwebassets\\imgs\\VK_Compact_Logo_(2021-present).svg.webp"
     },
     {
       "Id": "C:\\Users\\Админ\\Documents\\GitHub\\Inspire.me.github.io\\testwebap\\wwwroot\\imgs\\arrow.png",
