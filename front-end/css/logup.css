@@ -1,70 +1,90 @@
 body{
     margin: 0px;
     font-family: 'PT Sans Narrow', sans-serif;
-    background-color: #5d8f9b;
 }
 #vsio
 {
     z-index: 0;
 }
-.header-image{
-    background-color: #56B8CD;
-    display: flex;
-    justify-content: center;
-}
-.logo{
-    max-width: 100%;
-    box-sizing: border-box;
-}
-nav{
-    display: flex;
-    justify-content: center;
-    height: 45px;
-    background-color: #56B8CD;
-    word-spacing: 130px;
-   
-}
-.navmenu{
-    font-size: 25px;
-    gap: 30px;
-}
-.option-on{
-    border: solid rgb(255, 255, 255) 2px;
-    font-size: 23px;
-    background-color: #fff;
-    border-radius: 7px;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: black;
-}
-.lang{
-    border: solid rgb(255, 255, 255) 2px;
-    font-size: 20px;
-    background-color: #fff;
-    border-radius: 7px;
-    padding: 5px 10px;
-}
-.tema{
-    border: solid rgb(255, 255, 255) 2px;
-    font-size: 20px;
-    background-color: #fff;
-    border-radius: 7px;
-    padding: 5px 10px;
-}
-.login{
-    color: black;
-}
-.logup{
-    color: black;
-}
+header{
+    user-select: none;
+  }
+    body{
+        margin: 0;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    article{
+        text-align: center;
+        user-select: none;
+    }
+    .header-image{
+        background-color: #56B8CD;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        height: 45px;
+        background-color: #fff;
+        word-spacing: 130px;
+        margin-top: 15px;
+    }
+    .navmenu{
+        font-size: 25px;
+        gap: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    .option-on{
+        color: black;
+    }
+    .lang{
+        border: solid rgb(255, 255, 255) 2px;
+        font-size: 20px;
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 5px 10px;
+    }
+    .tema{
+        border: solid rgb(255, 255, 255) 2px;
+        font-size: 20px;
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 5px 10px;
+    }
+    .login{
+        color: black;
+    }
+    .logup{
+        color: black;
+    }
+    .tittle1{
+        color: black;
+        font-size: 70px;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    .navmenu a:hover{
+        border-bottom: 2px solid black;
+    }
 
 .block{
     width: 400px;
     height: 450px;
-    margin-left: 33%;
     margin-top: 5%;
     background-color: #ffffff;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
 }
 #form-block{
     margin-left: 28%;
@@ -88,4 +108,8 @@ button{
 }
 .form{
     padding: 5px 10px;
+}
+article{
+    display: flex;
+    justify-content: center;
 }
